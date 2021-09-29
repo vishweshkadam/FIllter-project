@@ -1,0 +1,30 @@
+h3{
+    font-size: 25px !important;
+
+}
+#takesanpshot{
+    font-size: 25px !important;
+}
+#takesanpshot:hover{
+    background-color: rgba(84, 245, 84, 0.767);
+}
+canvas{
+    
+    animation-name:canvas_web;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes canvas_web{
+    from{
+        box-shadow: 2px 2px 30px rgb(255, 17, 0);
+
+    }
+    
+
+    to{
+        box-shadow: 2px 3px 30px rgb(250, 204, 2);
+        
+
+    }
+}
